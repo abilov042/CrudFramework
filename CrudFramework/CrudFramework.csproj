@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.14" />
+    </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <PackageId>CrudFramework</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Shamil Abilov</Authors>
+    <Company>shamilabilov.social</Company>
+    <Description>specification of entity framework</Description>
+    <PackageTags>spesification ef;crud;entity framework</PackageTags>
+  </PropertyGroup>
+
+</Project>

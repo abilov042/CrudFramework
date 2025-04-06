@@ -1,0 +1,52 @@
+## Build klasörleri
+bin/
+obj/
+artifacts/
+
+## User-specific dosyalar
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / VS Code
+.idea/
+.vscode/
+
+## Dotnet publish / pack çıktıları
+*.nupkg
+*.snupkg
+*.nuspec
+
+## Paket kaynakları
+packages/
+*.Symbols.nupkg
+
+## Test sonuçları
+TestResult*/
+*.coverage
+*.coveragexml
+*.trx
+
+## Logs
+*.log
+
+## OS / editör cache
+.DS_Store
+Thumbs.db
+
+## Visual Studio auto-generated dosyalar
+.vs/
+Generated_Code/
+
+## Secrets / environment dosyaları (eğer kullanıyorsan)
+.env
+.env.*
+
+## ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+## Git merge/patch
+*.orig
+*.rej
